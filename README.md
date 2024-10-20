@@ -113,7 +113,8 @@
             transform: translateY(-3px);
         }
 <img src="[https://github.com/user-attachment/files/17449767/anhr1.pdf.pdf]
-" alt="minh" width="400" height="300">  opacity: 0
+" alt="minh" width="400" height="300">  opacity: 1
+
         /* Hiệu ứng hoa rơi */
         .falling-flower {
             position: absolute;
