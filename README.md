@@ -112,7 +112,7 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
             transform: translateY(-3px);
         }
-<img src="[https://github.com/user-attachments/files/17449767/anhr1.pdf.pdf]
+<img src="[https://github.com/user-attachment/files/17449767/anhr1.pdf.pdf]
 " alt="minh" width="400" height="300">  opacity: 0
         /* Hiệu ứng hoa rơi */
         .falling-flower {
