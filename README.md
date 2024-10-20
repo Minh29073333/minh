@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -135,7 +135,7 @@
             }
         }
     </style>
-</head>
+
 <body>
     <div class="card">
         <h1>Chúc Mừng Ngày Phụ Nữ Việt Nam</h1>
