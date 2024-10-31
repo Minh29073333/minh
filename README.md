@@ -37,6 +37,51 @@
         <p>❤️ Với tất cả tình yêu của chúng tôi ❤️</p>
     </footer>
 
-    <script src="scripts.js"></script>
+<script src="scripts.js"></script>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef3f2;
+    color: #333;
+}
+
+header, footer {
+    background-color: #ffb6c1;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1, h2 {
+    color: #ff69b4;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    font-size: 0.9em;
+}
 </body>
+
 </html>
