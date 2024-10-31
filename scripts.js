@@ -12,7 +12,7 @@ function showStory() {
 
 document.addEventListener("DOMContentLoaded", function() {
     // Ngày gặp nhau (thay bằng ngày thực tế)
-    const startDate = new Date("2023-12-31"); // Định dạng YYYY-MM-DD
+    const startDate = new Date("2022-01-01"); // Định dạng YYYY-MM-DD
 
     // Hàm tính số ngày từ ngày gặp nhau đến hiện tại
     function calculateDaysTogether() {
@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Ẩn trái tim sau 8 giây
     setTimeout(() => {
-        document.getElementById("full-screen-heart").classList.add("hidden");
+        const heart = document.getElementById("full-screen-heart");
+        heart.classList.add("hidden");
     }, 8000);
 });
