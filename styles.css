@@ -50,7 +50,7 @@ footer {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 250px; /* Kích thước trái tim nhỏ hơn */
+    width: 250px; /* Kích thước trái tim */
     height: 250px;
     background-color: #ff69b4;
     display: flex;
@@ -69,26 +69,30 @@ footer {
 #full-screen-heart::after {
     content: "";
     position: absolute;
-    width: 250px; /* Kích thước trái tim nhỏ hơn */
+    width: 250px; /* Kích thước trái tim */
     height: 250px;
     background-color: #ff69b4;
     border-radius: 50%;
 }
 
 #full-screen-heart::before {
-    top: -125px; /* Đảm bảo phần trên của trái tim không bị che khuất */
+    top: -125px; /* Điều chỉnh vị trí */
     left: 0;
 }
 
 #full-screen-heart::after {
-    left: 125px; /* Đảm bảo phần bên phải của trái tim không bị che khuất */
+    left: 125px; /* Điều chỉnh vị trí */
     top: 0;
 }
 
-/* Đảm bảo số ngày hiển thị đúng giữa trái tim */
 #full-screen-heart #days-counter {
     transform: rotate(45deg); /* Xoay lại số ngày cho đúng chiều */
     z-index: 1;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
 }
 
 /* Media query để điều chỉnh cho các thiết bị nhỏ */
@@ -106,18 +110,14 @@ footer {
     }
 
     #full-screen-heart::before {
-        top: -90px; /* Đảm bảo phần trên không bị che khuất */
+        top: -90px; /* Điều chỉnh vị trí */
     }
 
     #full-screen-heart::after {
-        left: 90px; /* Đảm bảo phần bên phải không bị che khuất */
+        left: 90px; /* Điều chỉnh vị trí */
     }
 
     #full-screen-heart #days-counter {
         font-size: 1.5em; /* Kích thước font nhỏ hơn cho điện thoại */
     }
 }
-/* Lớp để ẩn trái tim sau 8 giây */
-.hidden {
-    opacity: 0;
-    visibility: hidden;
