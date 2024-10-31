@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="full-screen-heart">
+        <span id="days-counter">0</span>
+    </div>
     <header>
         <h1>Chào mừng em đã đến hành tinh của anh</h1>
         <p>❤️ [Đào Nguyên Tiến Minh] & [Trần Hoàng Bảo Trâm] ❤️</p>
-         <div id="heart-counter">
-            <span id="days-counter">0</span> ngày bên nhau
-        </div>
+         
     </header>
 
     <section id="story">
