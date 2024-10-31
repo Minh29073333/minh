@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div id="heart-container">
+        <div id="heart">
+            <span id="days-counter">0</span> Ngày yêu
+        </div>
     <header>
         <h1>Chào mừng em đã đến hành tinh của anh</h1>
         <p>❤️ [Đào Nguyên Tiến Minh] & [Trần Hoàng Bảo Trâm] ❤️</p>
