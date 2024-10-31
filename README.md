@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Chào mừng đến với trang của chúng tôi</h1>
+        <h1>Chào mừng em đã đến hành tinh của anh</h1>
         <p>❤️ [Đào Nguyên Tiến Minh] & [Trần Hoàng Bảo Trâm] ❤️</p>
     </header>
 
@@ -34,7 +34,7 @@
     </section>
 
     <footer>
-        <p>❤️ Với tất cả tình yêu của chúng tôi ❤️</p>
+        <p>❤️ Với tất cả tình yêu của anh dành tặng cho em ❤️</p>
     </footer>
 
 <script src="scripts.js"></script>
