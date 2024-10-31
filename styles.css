@@ -44,13 +44,14 @@ footer {
 }
 
 
+
 /* Hiển thị trái tim full màn hình ở giữa */
 #full-screen-heart {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     background-color: #ff69b4;
     display: flex;
     align-items: center;
@@ -68,29 +69,24 @@ footer {
 #full-screen-heart::after {
     content: "";
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     background-color: #ff69b4;
     border-radius: 50%;
 }
 
 #full-screen-heart::before {
-    top: -100px;
+    top: -110px;
     left: 0;
 }
 
 #full-screen-heart::after {
-    left: 100px;
+    left: 110px;
     top: 0;
 }
 
-/* Căn giữa số ngày bên trong trái tim */
+/* Đảm bảo số ngày hiển thị đúng giữa trái tim */
 #full-screen-heart #days-counter {
-    transform: rotate(45deg); /* Để số ngày hiển thị đúng chiều */
-}
-
-/* Lớp để ẩn trái tim sau 8 giây */
-.hidden {
-    opacity: 0;
-    visibility: hidden;
+    transform: rotate(45deg); /* Xoay lại số ngày cho đúng chiều */
+    z-index: 1;
 }
