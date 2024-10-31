@@ -9,12 +9,12 @@
 <body>
     <header>
         <h1>Chào mừng đến với trang của chúng tôi</h1>
-        <p>❤️ [Tên người A] & [Tên người B] ❤️</p>
+        <p>❤️ [Đào Nguyên Tiến Minh] & [Trần Hoàng Bảo Trâm] ❤️</p>
     </header>
 
     <section id="story">
         <h2>Câu chuyện của chúng tôi</h2>
-        <p>Chúng tôi gặp nhau lần đầu tại [địa điểm] vào ngày [ngày]. Sau nhiều kỷ niệm và khoảnh khắc đẹp bên nhau, chúng tôi đã trở thành một phần không thể thiếu trong cuộc sống của nhau.</p>
+        <p>Anh và Em đã bắt đầu yêu từ ngày 31/12/2023. Sau nhiều kỷ niệm và khoảnh khắc đẹp bên nhau, anh và em đã trở thành một phần không thể thiếu trong cuộc sống của nhau.</p>
     </section>
 
     <section id="gallery">
