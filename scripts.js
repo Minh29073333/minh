@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     header.style.opacity = "1";
 
     // Ngày gặp nhau (thay bằng ngày thực tế)
-    const startDate = new Date("2022-01-01"); // Định dạng YYYY-MM-DD
+    const startDate = new Date("2023-12-31"); // Định dạng YYYY-MM-DD
 
     // Hàm tính số ngày từ ngày gặp nhau đến hiện tại
     function calculateDaysTogether() {
