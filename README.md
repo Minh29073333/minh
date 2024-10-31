@@ -24,7 +24,7 @@
     <section id="gallery">
         <h2>Album ảnh</h2>
         <div class="photo-grid">
-            <img src="anhr1.pdf.pdf" alt="Ảnh 1">
+            <img src="anhr1.pdf.jpg" alt="Ảnh 1">
             <img src="photo2.jpg" alt="Ảnh 2">
             <img src="photo3.jpg" alt="Ảnh 3">
             <!-- Thêm nhiều ảnh khác -->
