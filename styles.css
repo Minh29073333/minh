@@ -50,8 +50,8 @@ footer {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 220px; /* Kích thước trái tim */
-    height: 220px;
+    width: 210px; /* Kích thước trái tim */
+    height: 210px;
     background-color: #ff69b4;
     display: flex;
     align-items: center;
