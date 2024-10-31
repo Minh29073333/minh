@@ -31,11 +31,6 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Liên hệ với chúng tôi</h2>
-        <p>Email: <a href="mailto:yourmail@example.com">yourmail@example.com</a></p>
-        <p>Số điện thoại: [số điện thoại]</p>
-    </section>
 
     <footer>
         <p>❤️ Với tất cả tình yêu của anh dành tặng cho em ❤️</p>
