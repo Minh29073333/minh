@@ -117,3 +117,7 @@ footer {
         font-size: 1.5em; /* Kích thước font nhỏ hơn cho điện thoại */
     }
 }
+/* Lớp để ẩn trái tim sau 8 giây */
+.hidden {
+    opacity: 0;
+    visibility: hidden;
