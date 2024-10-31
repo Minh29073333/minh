@@ -47,3 +47,26 @@ footer {
 
 
 
+#heart-counter {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #ff69b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heart-counter::before, #heart-counter::after {
+    content: "❤️";
+    margin: 0 5px;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+}
