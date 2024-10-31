@@ -50,14 +50,14 @@ footer {
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 210px; /* Kích thước trái tim */
-    height: 210px;
+    width: 250px; /* Kích thước trái tim nhỏ hơn */
+    height: 250px;
     background-color: #ff69b4;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 2em; /* Kích thước font cho số ngày */
+    font-size: 2.5em; /* Kích thước font cho số ngày */
     font-weight: bold;
     z-index: 1000;
     border-radius: 50% 50% 0 0;
@@ -69,36 +69,51 @@ footer {
 #full-screen-heart::after {
     content: "";
     position: absolute;
-    width: 220px;
-    height: 220px;
+    width: 250px; /* Kích thước trái tim nhỏ hơn */
+    height: 250px;
     background-color: #ff69b4;
     border-radius: 50%;
 }
 
 #full-screen-heart::before {
-    top: -110px;
+    top: -125px; /* Đảm bảo phần trên của trái tim không bị che khuất */
     left: 0;
 }
 
 #full-screen-heart::after {
-    left: 110px;
+    left: 125px; /* Đảm bảo phần bên phải của trái tim không bị che khuất */
     top: 0;
 }
 
 /* Đảm bảo số ngày hiển thị đúng giữa trái tim */
 #full-screen-heart #days-counter {
-    transform: rotate(45deg);
+    transform: rotate(45deg); /* Xoay lại số ngày cho đúng chiều */
     z-index: 1;
 }
 
 /* Media query để điều chỉnh cho các thiết bị nhỏ */
 @media (max-width: 600px) {
     #full-screen-heart {
-        width: 150px; /* Kích thước trái tim nhỏ hơn trên điện thoại */
-        height: 150px;
+        width: 180px; /* Kích thước trái tim nhỏ hơn trên điện thoại */
+        height: 180px;
+        font-size: 2em; /* Kích thước font cho số ngày */
+    }
+
+    #full-screen-heart::before,
+    #full-screen-heart::after {
+        width: 180px; /* Kích thước trái tim nhỏ hơn trên điện thoại */
+        height: 180px;
+    }
+
+    #full-screen-heart::before {
+        top: -90px; /* Đảm bảo phần trên không bị che khuất */
+    }
+
+    #full-screen-heart::after {
+        left: 90px; /* Đảm bảo phần bên phải không bị che khuất */
     }
 
     #full-screen-heart #days-counter {
-        font-size: 1.5em; /* Kích thước font nhỏ hơn */
+        font-size: 1.5em; /* Kích thước font nhỏ hơn cho điện thoại */
     }
 }
