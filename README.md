@@ -26,7 +26,7 @@
         <div class="photo-grid">
             <img src="anhr1.pdf.jpg" alt="Ảnh 1">
             <img src="z5947990938534_fa79c17c3c401525a1177f4a53b33b15.jpg" alt="Ảnh 2">
-            <img src="photo3.jpg" alt="Ảnh 3">
+            <img src="z5947990989630_fa797476a8031c0ad27b7693170fe881.jpg" alt="Ảnh 3">
             <!-- Thêm nhiều ảnh khác -->
         </div>
     </section>
