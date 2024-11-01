@@ -85,3 +85,41 @@ body {
 h1 {
     color: #ff69b4;
 }
+
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fef3f2;
+    color: #333;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333;
+}
