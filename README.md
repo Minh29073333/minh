@@ -49,9 +49,7 @@
  <div class="container">
         <button id="revealButton">Ấn vào</button>
         <p id="message" style="display: none;">
-           
-
-            Anh thực sự hạnh phúc và trân trọng từng khoảnh khắc có em trong đời. Một năm qua là bước đầu thôi, và anh mong rằng chúng mình sẽ còn nhiều kỷ niệm đẹp hơn nữa trên hành trình phía trước. Yêu em nhiều! 💖
+        Yêu em nhiều! 💖
         </p>
         <button id="secondButton" style="display: none;">Nút thứ hai</button>
     </div>
