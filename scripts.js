@@ -72,3 +72,11 @@ document.getElementById("revealButton").addEventListener("click", function() {
 document.getElementById("secondButton").addEventListener("click", function() {
     document.getElementById("secondMessage").style.display = "block";
 });
+
+
+
+// Bỏ tắt tiếng nhạc sau khi trang đã tải
+window.addEventListener("load", function() {
+    var audio = document.getElementById("backgroundMusic");
+    audio.muted = false;
+});
