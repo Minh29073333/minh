@@ -186,6 +186,7 @@ body {
     color: #333;
     margin: 0;
     padding: 10px; /* Thêm padding để không bị sát mép trên điện thoại */
+    overflow-x: hidden; /* Ẩn cuộn ngang nếu có */
 }
 
 .container {
@@ -206,6 +207,7 @@ button {
     margin-top: 15px;
     width: 100%; /* Để nút căn giữa và dễ bấm trên điện thoại */
     max-width: 200px; /* Giới hạn chiều rộng nút */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng nhẹ */
 }
 
 button:hover {
@@ -219,6 +221,7 @@ p {
     line-height: 1.5;
     color: #333;
     padding: 10px;
+    text-align: center;
 }
 
 /* Tối ưu hóa thêm cho màn hình nhỏ */
@@ -230,5 +233,6 @@ p {
 
     p {
         font-size: 15px; /* Giảm kích thước chữ trong lời chúc */
+        line-height: 1.4; /* Tăng khoảng cách dòng một chút */
     }
 }
