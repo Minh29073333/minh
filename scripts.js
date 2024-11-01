@@ -30,3 +30,23 @@ document.addEventListener("DOMContentLoaded", function() {
     // Hiển thị số ngày lên trang
     document.getElementById("days-counter").textContent = calculateDaysTogether();
 });
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Mật khẩu cần nhập
+    const correctPassword = "12345"; // Thay đổi thành mật khẩu bạn muốn
+
+    // Hộp thoại yêu cầu mật khẩu
+    let userPassword = prompt("Vui lòng nhập mật khẩu để truy cập trang web:");
+
+    // Kiểm tra mật khẩu
+    if (userPassword === correctPassword) {
+        document.getElementById("content").style.display = "block"; // Hiển thị nội dung trang
+    } else {
+        alert("Mật khẩu không đúng! Bạn sẽ không được truy cập.");
+        window.location.href = "https://google.com"; // Chuyển hướng sang trang khác
+    }
+});
