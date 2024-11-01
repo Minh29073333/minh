@@ -35,7 +35,16 @@
     <footer>
         <p>❤️ Với tất cả tình yêu của anh dành tặng cho em ❤️</p>
     </footer>
+    
+<div class="container">
+        <button id="revealButton">Ấn vào</button>
+        <p id="message" style="display: none;">
+            Hôm nay là ngày tròn một năm bên nhau rồi em nhỉ. Nhớ lại những ngày đầu bỡ ngỡ, anh chẳng nghĩ rằng mình sẽ có em đồng hành suốt chặng đường này. Cảm ơn em vì đã ở bên anh, cùng chia sẻ mọi niềm vui, nỗi buồn, và cả những thử thách nhỏ to.
 
+            Anh thực sự hạnh phúc và trân trọng từng khoảnh khắc có em trong đời. Một năm qua là bước đầu thôi, và anh mong rằng chúng mình sẽ còn nhiều kỷ niệm đẹp hơn nữa trên hành trình phía trước. Yêu em nhiều! 💖
+        </p>
+    </div>
+    
 <script src="scripts.js"></script>
 
 </body>
