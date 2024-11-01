@@ -50,3 +50,11 @@ document.addEventListener("DOMContentLoaded", function() {
         window.location.href = "https://google.com"; // Chuyển hướng sang trang khác
     }
 });
+
+
+
+
+
+document.getElementById("revealButton").addEventListener("click", function() {
+    document.getElementById("message").style.display = "block";
+});
