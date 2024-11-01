@@ -61,7 +61,14 @@ document.getElementById("revealButton").addEventListener("click", function() {
 
 
 
+
+// Khi nút đầu tiên được nhấn, hiển thị lời chúc và nút thứ hai
 document.getElementById("revealButton").addEventListener("click", function() {
-    document.getElementById("message").style.display = "block";  // Hiện lời chúc
-    document.getElementById("secondButton").style.display = "inline-block";  // Hiện nút thứ hai
+    document.getElementById("message").style.display = "block";
+    document.getElementById("secondButton").style.display = "inline-block";
+});
+
+// Khi nút thứ hai được nhấn, hiển thị nội dung mới
+document.getElementById("secondButton").addEventListener("click", function() {
+    document.getElementById("secondMessage").style.display = "block";
 });
