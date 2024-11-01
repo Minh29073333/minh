@@ -162,3 +162,73 @@ p {
     margin-top: 20px;
     color: #333;
 }
+
+
+
+
+
+
+/* Đặt lại định dạng mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Định dạng chung */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #fef3f2;
+    color: #333;
+    margin: 0;
+    padding: 10px; /* Thêm padding để không bị sát mép trên điện thoại */
+}
+
+.container {
+    text-align: center;
+    max-width: 400px; /* Giới hạn độ rộng để phù hợp với điện thoại */
+    width: 100%;
+}
+
+/* Định dạng nút */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%; /* Để nút căn giữa và dễ bấm trên điện thoại */
+    max-width: 200px; /* Giới hạn chiều rộng nút */
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+/* Định dạng lời chúc */
+p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: #333;
+    padding: 10px;
+}
+
+/* Tối ưu hóa thêm cho màn hình nhỏ */
+@media (max-width: 600px) {
+    button {
+        font-size: 16px; /* Giảm kích thước chữ trên nút cho màn hình nhỏ */
+        padding: 10px 20px;
+    }
+
+    p {
+        font-size: 15px; /* Giảm kích thước chữ trong lời chúc */
+    }
+}
