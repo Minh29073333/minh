@@ -37,10 +37,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener("DOMContentLoaded", function() {
     // Mật khẩu cần nhập
-    const correctPassword = "12345"; // Thay đổi thành mật khẩu bạn muốn
+    const correctPassword = "31122023"; // Thay đổi thành mật khẩu bạn muốn
 
     // Hộp thoại yêu cầu mật khẩu
-    let userPassword = prompt("Vui lòng nhập mật khẩu để truy cập trang web:");
+    let userPassword = prompt("Vui lòng nhập mật khẩu để đăng nhập vào hành hinh của Minh:");
 
     // Kiểm tra mật khẩu
     if (userPassword === correctPassword) {
