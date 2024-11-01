@@ -51,7 +51,9 @@
         </p>
     </div>
 
-
+ <!-- Thêm thẻ audio tự động phát và tắt tiếng ban đầu -->
+        <audio id="backgroundMusic" src="your-music-file.mp3" autoplay muted loop></audio>
+    </div>
  
     
 <script src="scripts.js"></script>
