@@ -58,3 +58,10 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById("revealButton").addEventListener("click", function() {
     document.getElementById("message").style.display = "block";
 });
+
+
+
+document.getElementById("revealButton").addEventListener("click", function() {
+    document.getElementById("message").style.display = "block";  // Hiện lời chúc
+    document.getElementById("secondButton").style.display = "inline-block";  // Hiện nút thứ hai
+});
