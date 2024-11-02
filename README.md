@@ -45,7 +45,7 @@
 
             Anh thực sự hạnh phúc và trân trọng từng khoảnh khắc có em trong đời. Một năm qua là bước đầu thôi, và anh mong rằng chúng mình sẽ còn nhiều kỷ niệm đẹp hơn nữa trên hành trình phía trước. Yêu em nhiều! 💖
         </p>
-         <button id="secondButton" style="display: none;">Nút thứ hai</button>
+         <button id="secondButton" style="display: none;">Bấc ngờ nè</button>
         <p id="secondMessage" style="display: none;">
             Đây là một bất ngờ khác dành cho em! Chúng ta sẽ tiếp tục tạo nên những kỷ niệm đẹp hơn nữa.
         </p>
