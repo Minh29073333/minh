@@ -39,7 +39,7 @@
     </footer>
     
 <div class="container">
-        <button id="revealButton">Ấn vào</button>
+        <button id="revealButton">Ấn zô đuy</button>
         <p id="message" style="display: none;">
             Hôm nay là ngày tròn một năm bên nhau rồi . Nhớ lại những ngày đầu bỡ ngỡ, anh chẳng nghĩ rằng anh sẽ đồng hành với em suốt chặng đường này. Cảm ơn em vì đã ở bên anh, cùng chia sẻ mọi niềm vui, nỗi buồn, và cả những thử thách nhỏ to.
 
@@ -47,7 +47,8 @@
         </p>
          <button id="secondButton" style="display: none;">Bấc ngờ nè</button>
         <p id="secondMessage" style="display: none;">
-            Đây là một bất ngờ khác dành cho em! Chúng ta sẽ tiếp tục tạo nên những kỷ niệm đẹp hơn nữa.
+            Một bấc ngờ nữa cho iem nè!
+            <img src="anhr1.pdf.jpg" alt="Ảnh 1">
         </p>
     </div>
 
