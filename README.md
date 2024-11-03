@@ -41,7 +41,7 @@
 <div class="container">
         <button id="revealButton">Ấn zô đuy</button>
         <p id="message" style="display: none;">
-            Hôm nay là ngày tròn một năm bên nhau rồi . Nhớ lại những ngày đầu bỡ ngỡ, anh chẳng nghĩ rằng anh sẽ đồng hành với em suốt chặng đường này. Cảm ơn em vì đã ở bên anh, cùng chia sẻ mọi niềm vui, nỗi buồn, và cả những thử thách nhỏ to.
+            Hôm nay là ngày tròn một năm bên nhau rồi . Nhớ lại những ngày đầu, anh chẳng nghĩ anh sẽ đồng hành với em suốt chặng đường này. Cảm ơn em vì đã ở bên anh, cùng chia sẻ mọi niềm vui, nỗi buồn.
 
             Anh thực sự hạnh phúc và trân trọng từng khoảnh khắc có em trong đời. Một năm qua là bước đầu thôi, và anh mong rằng chúng mình sẽ còn nhiều kỷ niệm đẹp hơn nữa trên hành trình phía trước. Yêu em nhiều! 💖
         </p>
