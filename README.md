@@ -48,12 +48,12 @@
          <button id="secondButton" style="display: none;">Bấc ngờ nè</button>
         <p id="secondMessage" style="display: none;">
             Một bấc ngờ nữa cho iem nè!
-            <img src="anhr1.pdf.jpg" alt="Ảnh 1">
+            <img src="" alt="1">
         </p>
     </div>
 
  <!-- Thêm thẻ audio tự động phát và tắt tiếng ban đầu -->
-        <audio id="backgroundMusic" src="v14044g50000cp502c7og65lbm6ssi4g.mp3" autoplay muted loop></audio>
+        <audio id="backgroundMusic" src="ytmp3free.cc_yeu-em-hon-moi-ngay-lofi-ver-andiez-x-freak-d-youtubemp3free.org.mp3" autoplay muted loop></audio>
  
     
 <script src="scripts.js"></script>
